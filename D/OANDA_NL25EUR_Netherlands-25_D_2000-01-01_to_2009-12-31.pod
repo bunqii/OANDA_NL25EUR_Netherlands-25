@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NL25_EUR",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_NL25EUR_Netherlands-25_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_NL25EUR_Netherlands-25_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 498,
+  "first_candle": {
+    "time": 1200866400,
+    "Time": "2008-01-20T22:00:00.000000000Z",
+    "open": 449.698,
+    "high": 450.505,
+    "low": 425.586,
+    "close": 428.231,
+    "volume": 32785
+  },
+  "last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 335.331,
+    "high": 337.079,
+    "low": 334.095,
+    "close": 334.993,
+    "volume": 654
+  },
+  "csv_file": "OANDA_NL25EUR_Netherlands-25_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 498,
+  "csv_first_candle": {
+    "time": 1200866400,
+    "Time": "2008-01-20T22:00:00.000000000Z",
+    "open": 449.698,
+    "high": 450.505,
+    "low": 425.586,
+    "close": 428.231,
+    "volume": 32785
+  },
+  "csv_last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 335.331,
+    "high": 337.079,
+    "low": 334.095,
+    "close": 334.993,
+    "volume": 654
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:49:39.000000000Z",
+  "generated_at": "2026-10-16T02:49:39.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2008-01-20T22:00:00Z",
+        "to": "2021-09-28T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
